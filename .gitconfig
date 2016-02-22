@@ -1,0 +1,27 @@
+[user]
+	name = Evandro Ribeiro
+	email = ribeiroevandro@live.com
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+
+[color "status"]
+	added = yellow
+	changed = cyan
+	untracked = red
+
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	df = diff
+	lg = log -pgit ps
+	co = checkout
+	pom = push origin master
+	ps = push
+	pl = pull
+	cl = clone
