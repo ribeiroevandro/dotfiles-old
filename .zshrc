@@ -51,8 +51,8 @@ export EDITOR='vim'
 alias px="ps aux"
 alias t="trash"
 alias v="vim"
-alias phpunit="/Users/evandro/Sites/cold/vendor/bin/phpunit"
 
 # PATH customizations
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH" # Homebrew
 export PATH="$PATH:$HOME/.composer/vendor/bin" # Composer
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

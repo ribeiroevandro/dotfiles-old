@@ -2,6 +2,10 @@
 	name = Evandro Ribeiro
 	email = ribeiroevandro@live.com
 
+[core]
+	editor        = vim
+	fileMode      = false
+
 [color]
 	branch = auto
 	diff = auto
@@ -25,3 +29,6 @@
 	ps = push
 	pl = pull
 	cl = clone
+
+[push]
+	default = matching
